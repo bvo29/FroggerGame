@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4c826979750a44e9abf1da6f4cc86cdd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameOverMenu: {instanceID: 0}
+  - livesText: {instanceID: 0}
+  - scoreText: {instanceID: 0}
+  - timerText: {instanceID: 0}
+  - Background: {fileID: 8300000, guid: 4bd4e5babf2af4f4494544b12eb24a3f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

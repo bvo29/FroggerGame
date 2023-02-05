@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bfcb2012dc445439ebecc722206d6b74
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - idleSprite: {instanceID: 0}
+  - leapSprite: {instanceID: 0}
+  - deadSprite: {instanceID: 0}
+  - Jetpack: {fileID: 8300000, guid: 8f49c53a578334414ab8ca8196d8e4c2, type: 3}
+  - Dying: {fileID: 8300000, guid: af571bac683694a43b8f38dcd2b47511, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
