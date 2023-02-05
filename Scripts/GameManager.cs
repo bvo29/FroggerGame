@@ -7,6 +7,8 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
+    
+  
     private Frogger frogger;
     private Home[] homes;
 
@@ -15,9 +17,11 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI timerText;
 
-    public AudioClip Background;
+    public AudioClip background;
 
     AudioSource audioSource;
+
+   
 
 
     private int score;
@@ -33,6 +37,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         NewGame();
         if (Input.GetKeyDown(KeyCode.Escape)) {
             Debug.Log("QUIT!");
@@ -44,7 +50,6 @@ public class GameManager : MonoBehaviour
         SetScore(0);
         SetLives(3);
         NewLevel();
-        PlaySound(Background);
     }
 
     private void NewLevel()
@@ -172,10 +177,11 @@ public class GameManager : MonoBehaviour
     public void PlayAgainButton() {
         SceneManager.LoadScene("MainMenu");
     }
-
-    public void PlaySound(AudioClip clip)
+    
+ public void PlaySound(AudioClip clip)
     {
         audioSource.PlayOneShot(clip);
     }
 }
+
 
